@@ -1,0 +1,31 @@
+dl {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+dt,
+dd {
+  margin: 10px 0;
+}
+
+dt {
+  font-weight: bold;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ccc;
+  margin-left: 0;
+  margin-top: 0.5em;
+  cursor: pointer;
+}
