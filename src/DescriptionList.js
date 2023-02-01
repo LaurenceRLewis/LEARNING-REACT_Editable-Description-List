@@ -26,14 +26,18 @@ function DescriptionList() {
               onChange={(e) => setName(e.target.value)}
             />
             <div>
-              <button onClick={handleSave}>Save</button>
+              <button className="btn--save" onClick={handleSave}>
+                Save
+              </button>
             </div>
           </>
         ) : (
           <>
             {name}
             <div>
-              <button onClick={handleEdit}>Edit name</button>
+              <button className="btn--edit" onClick={handleEdit}>
+                Edit name
+              </button>
             </div>
           </>
         )}
