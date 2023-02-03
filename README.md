@@ -1,6 +1,10 @@
 # LEARNING-REACT_Editable-Description-List
 ## Steps used to build the component
 
+**This is my attempt at learning REACT. There are many bugs in these components and they MUST not be copied for use in production.**
+
+Working example on Netify:
+
 1. Created a new React component named DescriptionList.
 2. Imported React and the useState hook.
 3. Defined the initial state for the component, including a default name, an editMode state and a status state.
